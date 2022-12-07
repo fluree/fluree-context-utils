@@ -9,11 +9,11 @@ This library is intended to help with dereferencing context and vocabulary docum
 ### Node.js + npm
 
 ```
-npm install fluree-context-utils
+npm install @fluree/fluree-context-utils
 ```
 
 ```js
-const flureeContext = require('fluree-context-utils');
+const flureeContext = require('@fluree/fluree-context-utils');
 ```
 
 ## Examples
@@ -21,7 +21,7 @@ const flureeContext = require('fluree-context-utils');
 ### validate
 
 ```js
-const flureeContext = require('fluree-context-utils');
+const flureeContext = require('@fluree/fluree-context-utils');
 
 const jsonldDoc = {
   '@context': 'https://schema.org',
@@ -71,7 +71,7 @@ Options:
 - errorOnLookupFailure
 
 ```js
-const flureeContext = require('fluree-context-utils');
+const flureeContext = require('@fluree/fluree-context-utils');
 
 const jsonldDoc = {
   '@context': [
@@ -101,7 +101,7 @@ try {
 ### isValid
 
 ```js
-const flureeContext = require('fluree-context-utils');
+const flureeContext = require('@fluree/fluree-context-utils');
 
 const jsonldDoc = {
   '@context': 'https://schema.org',
@@ -142,7 +142,7 @@ flureeContext
 ### includeVocabulary
 
 ```js
-const flureeContext = require('fluree-context-utils');
+const flureeContext = require('@fluree/fluree-context-utils');
 
 const jsonldDoc = {
   '@context': 'https://schema.org',
