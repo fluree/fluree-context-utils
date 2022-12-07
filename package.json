@@ -1,0 +1,26 @@
+{
+  "name": "fluree-context-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "npm run build-webpack",
+    "build-webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "cheerio": "^1.0.0-rc.12",
+    "jsonld": "^8.1.0",
+    "jsonld-request": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
