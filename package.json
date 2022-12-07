@@ -1,6 +1,6 @@
 {
   "name": "@fluree/fluree-context-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeJS Library helping to dereference context and vocabulary documents from URLs, particularly for use with JSON-LD FlureeDB.",
   "keywords": [
     "fluree",
